@@ -1,268 +1,45 @@
-Contribution: 2023-06-13 10:00
+php-simple-kanban
+====
 
-Contribution: 2023-06-13 10:01
+<img src="https://github.com/mikiakira/imageArchive/blob/master/img/php-simple-kanban.png?raw=true" width="50%">
 
-Contribution: 2023-06-13 10:02
+## Overview
+A web app that was inspired by Trello and cloned only the "Kanban" function with PHP.
 
-Contribution: 2023-06-13 10:03
+Since the data is managed by SQlite, after downloading,
+it can be started immediately by just rewriting the password with the setting file.
 
-Contribution: 2023-06-13 10:04
 
-Contribution: 2023-06-13 10:05
+## Requirement
 
-Contribution: 2023-06-13 10:06
+  * PHP 5.6+ (PDO is required)
+  * Idirom
+  * SQLite
+  * Bootstrap 3.x
+  * jQuery 2.x
+  * jQuery UI 1.x
+  * jQuery.spectrum
+  * linkify-jquery
+  * Remodal.js
 
-Contribution: 2023-06-14 10:00
 
-Contribution: 2023-06-14 10:01
+## Installation
+  * Copy app.template.db and rename it to app.db
+  * Open config / define.php and set the password
+  * Open config / define.php and please choose a language. Change the value of "const LANG". The default is en in English. Japanese is ja.
 
-Contribution: 2023-06-14 10:02
 
-Contribution: 2023-06-14 10:03
+## BackUp
+(Current hidden mode) When logged in, you access export.php then download the database backup (app.db)
 
-Contribution: 2023-06-14 10:04
 
-Contribution: 2023-06-14 10:05
+## Copyright and license
+Code copyright 2017 the Web Atelier Midori Inc. Code released under the MIT License.
 
-Contribution: 2023-06-14 10:06
+## Donation
+You can use this software for free, but I am seeking donations.
+https://PayPal.Me/ateliermidori/500
 
-Contribution: 2023-06-16 10:00
-
-Contribution: 2023-06-16 10:01
-
-Contribution: 2023-06-16 10:02
-
-Contribution: 2023-06-16 10:03
-
-Contribution: 2023-06-16 10:04
-
-Contribution: 2023-06-16 10:05
-
-Contribution: 2023-06-16 10:06
-
-Contribution: 2023-06-16 10:07
-
-Contribution: 2023-06-16 10:08
-
-Contribution: 2023-06-16 10:09
-
-Contribution: 2023-06-19 10:00
-
-Contribution: 2023-06-19 10:01
-
-Contribution: 2023-06-22 10:00
-
-Contribution: 2023-06-22 10:01
-
-Contribution: 2023-06-22 10:02
-
-Contribution: 2023-06-22 10:03
-
-Contribution: 2023-06-22 10:04
-
-Contribution: 2023-06-27 10:00
-
-Contribution: 2023-06-27 10:01
-
-Contribution: 2023-06-27 10:02
-
-Contribution: 2023-06-27 10:03
-
-Contribution: 2023-06-27 10:04
-
-Contribution: 2023-06-27 10:05
-
-Contribution: 2023-06-27 10:06
-
-Contribution: 2023-06-27 10:07
-
-Contribution: 2023-06-27 10:08
-
-Contribution: 2023-06-27 10:09
-
-Contribution: 2023-07-04 10:00
-
-Contribution: 2023-07-04 10:01
-
-Contribution: 2023-07-04 10:02
-
-Contribution: 2023-07-04 10:03
-
-Contribution: 2023-07-06 10:00
-
-Contribution: 2023-07-06 10:01
-
-Contribution: 2023-07-06 10:02
-
-Contribution: 2023-07-06 10:03
-
-Contribution: 2023-07-06 10:04
-
-Contribution: 2023-07-06 10:05
-
-Contribution: 2023-07-06 10:06
-
-Contribution: 2023-07-06 10:07
-
-Contribution: 2023-07-06 10:08
-
-Contribution: 2023-07-10 10:00
-
-Contribution: 2023-07-10 10:01
-
-Contribution: 2023-07-10 10:02
-
-Contribution: 2023-07-10 10:03
-
-Contribution: 2023-07-10 10:04
-
-Contribution: 2023-07-10 10:05
-
-Contribution: 2023-07-10 10:06
-
-Contribution: 2023-07-10 10:07
-
-Contribution: 2023-07-10 10:08
-
-Contribution: 2023-07-10 10:09
-
-Contribution: 2023-07-10 10:10
-
-Contribution: 2023-07-10 10:11
-
-Contribution: 2023-07-12 10:00
-
-Contribution: 2023-07-12 10:01
-
-Contribution: 2023-07-12 10:02
-
-Contribution: 2023-07-12 10:03
-
-Contribution: 2023-07-12 10:04
-
-Contribution: 2023-07-12 10:05
-
-Contribution: 2023-07-12 10:06
-
-Contribution: 2023-07-13 10:00
-
-Contribution: 2023-07-13 10:01
-
-Contribution: 2023-07-13 10:02
-
-Contribution: 2023-07-13 10:03
-
-Contribution: 2023-07-13 10:04
-
-Contribution: 2023-07-13 10:05
-
-Contribution: 2023-07-13 10:06
-
-Contribution: 2023-07-17 10:00
-
-Contribution: 2023-07-17 10:01
-
-Contribution: 2023-07-19 10:00
-
-Contribution: 2023-07-19 10:01
-
-Contribution: 2023-07-19 10:02
-
-Contribution: 2023-07-19 10:03
-
-Contribution: 2023-07-19 10:04
-
-Contribution: 2023-07-19 10:05
-
-Contribution: 2023-07-19 10:06
-
-Contribution: 2023-07-19 10:07
-
-Contribution: 2023-07-19 10:08
-
-Contribution: 2023-07-19 10:09
-
-Contribution: 2023-07-19 10:10
-
-Contribution: 2023-07-20 10:00
-
-Contribution: 2023-07-20 10:01
-
-Contribution: 2023-07-20 10:02
-
-Contribution: 2023-07-20 10:03
-
-Contribution: 2023-07-20 10:04
-
-Contribution: 2023-07-21 10:00
-
-Contribution: 2023-07-21 10:01
-
-Contribution: 2023-07-21 10:02
-
-Contribution: 2023-07-21 10:03
-
-Contribution: 2023-07-21 10:04
-
-Contribution: 2023-07-21 10:05
-
-Contribution: 2023-07-21 10:06
-
-Contribution: 2023-07-21 10:07
-
-Contribution: 2023-07-21 10:08
-
-Contribution: 2023-07-21 10:09
-
-Contribution: 2023-07-26 10:00
-
-Contribution: 2023-07-26 10:01
-
-Contribution: 2023-07-26 10:02
-
-Contribution: 2023-07-26 10:03
-
-Contribution: 2023-07-27 10:00
-
-Contribution: 2023-07-31 10:00
-
-Contribution: 2023-07-31 10:01
-
-Contribution: 2023-07-31 10:02
-
-Contribution: 2023-07-31 10:03
-
-Contribution: 2023-07-31 10:04
-
-Contribution: 2023-07-31 10:05
-
-Contribution: 2023-08-01 10:00
-
-Contribution: 2023-08-01 10:01
-
-Contribution: 2023-08-01 10:02
-
-Contribution: 2023-08-01 10:03
-
-Contribution: 2023-08-01 10:04
-
-Contribution: 2023-08-01 10:05
-
-Contribution: 2023-08-01 10:06
-
-Contribution: 2023-08-01 10:07
-
-Contribution: 2023-08-01 10:08
-
-Contribution: 2023-08-01 10:09
-
-Contribution: 2023-08-01 10:10
-
-Contribution: 2023-08-01 10:11
-
-Contribution: 2023-08-07 10:00
-
-Contribution: 2023-08-07 10:01
-
-Contribution: 2023-08-07 10:02
-
+## An explanation of Japanese
+For commentary on Japanese please see [official blog] (https://web-atelier-midori.com/blog/php/1817/)
+(日本語の解説は [公式ブログ](https://web-atelier-midori.com/blog/php/1817/)をご覧下さい).
